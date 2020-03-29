@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0d41f963.chunk.css",
+    "main.js": "/static/js/main.69704fb4.chunk.js",
+    "main.js.map": "/static/js/main.69704fb4.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.8a72e578.js",
+    "runtime-main.js.map": "/static/js/runtime-main.8a72e578.js.map",
+    "static/js/2.b8b0d573.chunk.js": "/static/js/2.b8b0d573.chunk.js",
+    "static/js/2.b8b0d573.chunk.js.map": "/static/js/2.b8b0d573.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.cb63e4e82219af207b80d649ee2d5093.js": "/precache-manifest.cb63e4e82219af207b80d649ee2d5093.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.0d41f963.chunk.css.map": "/static/css/main.0d41f963.chunk.css.map",
+    "static/js/2.b8b0d573.chunk.js.LICENSE.txt": "/static/js/2.b8b0d573.chunk.js.LICENSE.txt",
+    "static/media/homeview.jpg": "/static/media/homeview.032443d6.jpg",
+    "static/media/netflixLogo.png": "/static/media/netflixLogo.2ea85d74.png",
+    "static/media/trailer.mp4": "/static/media/trailer.8666caaa.mp4"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8a72e578.js",
+    "static/js/2.b8b0d573.chunk.js",
+    "static/css/main.0d41f963.chunk.css",
+    "static/js/main.69704fb4.chunk.js"
+  ]
+}
