@@ -1,0 +1,116 @@
+.watchontv {
+    padding: 70px 45px;
+    position: relative;
+    border-bottom: 8px solid #222;
+    padding: 50px 5%;
+    margin-bottom: 0;
+    background: transparent;
+    color: white;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+}
+
+@media only screen and (max-width: 549px) and (min-width: 400px), only screen and (max-width: 399px) and (min-width: 350px), only screen and (max-width: 349px) {
+    .container {
+        flex-direction: column;
+    } 
+ }
+.tv_text {
+    width: 52%;
+    height: 100%;
+    -webkit-box-flex: 0;
+    flex: 0 1 auto;
+    padding: 0 3rem 0 0;
+    z-index: 3;
+    font-size: 1.625rem;
+    font-weight: normal;
+}
+
+@media only screen and (max-width: 549px) and (min-width: 400px), only screen and (max-width: 399px) and (min-width: 350px), only screen and (max-width: 349px) {
+    .tv_text {
+        width: auto;
+        padding: 0px 1rem 0 20px;
+    } 
+ }
+
+.watchtvtitle {
+    font-size: 3.125rem;
+    line-height: 1.1;
+    margin-bottom: 0.5rem;
+}
+
+@media only screen and (max-width: 549px) and (min-width: 400px), only screen and (max-width: 399px) and (min-width: 350px), only screen and (max-width: 349px) {
+    .watchtvtitle {
+        font-size: 2rem;
+    } 
+ }
+
+.watchtvsubtitle {
+    font-size: 1.625rem;
+    font-weight: normal;
+}
+
+@media only screen and (max-width: 549px) and (min-width: 400px), only screen and (max-width: 399px) and (min-width: 350px), only screen and (max-width: 349px) {
+    .watchtvsubtitle {
+        font-size: 1rem;
+    } 
+ }
+
+.imgContainer {
+    width: 48%;
+    height: 100%;
+    display: flex;
+    -webkit-box-flex: 0;
+    flex: 0 1 auto;
+    box-sizing: border-box;
+}
+
+@media only screen and (max-width: 549px) and (min-width: 400px), only screen and (max-width: 399px) and (min-width: 350px), only screen and (max-width: 349px) {
+    .imgContainer {
+        width: auto;
+    } 
+ }
+
+.animation {
+    margin: -10% -5% -5% 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.image {
+    position: relative;
+    z-index: 2;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border: 0;
+}
+
+.movie {
+    width: 100%;
+    height: 100%;
+    max-width: 73%;
+    max-height: 54%;
+    position: absolute;
+    top: 46%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.video {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    vertical-align: baseline;
+    object-fit: contain;
+}

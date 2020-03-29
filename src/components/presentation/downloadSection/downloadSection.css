@@ -1,0 +1,182 @@
+.downloadandwatch {
+    padding: 70px 45px;
+    position: relative;
+    border-bottom: 8px solid #222;
+    margin-bottom: 0;
+    background: transparent;
+    color: white;
+}
+
+@media only screen and (max-width: 549px) and (min-width: 400px), only screen and (max-width: 399px) and (min-width: 350px), only screen and (max-width: 349px) {
+    .downloadandwatch {
+        padding: 35px 0px;
+    }  
+  }
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+}
+
+@media only screen and (max-width: 549px) and (min-width: 400px), only screen and (max-width: 399px) and (min-width: 350px), only screen and (max-width: 349px) {
+  .container {
+      flex-direction: column-reverse;
+  }  
+}
+
+.textsection {
+    padding: 0 0 0 3rem;
+    width: 52%;
+    height: 100%;
+    -webkit-box-flex: 0;
+    flex: 0 1 auto;
+    z-index: 3;
+    font-size: 1.625rem;
+    font-weight: normal;
+}
+
+@media only screen and (max-width: 549px) and (min-width: 400px), only screen and (max-width: 399px) and (min-width: 350px), only screen and (max-width: 349px) {
+    .textsection {
+        width: auto;
+    }  
+  }
+
+.title {
+    font-size: 3.125rem;
+    line-height: 1.1;
+    margin-bottom: 0.5rem;
+    margin: 0 0 .4em;
+    color: white;
+}
+
+@media only screen and (max-width: 549px) and (min-width: 400px), only screen and (max-width: 399px) and (min-width: 350px), only screen and (max-width: 349px) {
+    .title {
+       font-size: 1.4rem;
+    }  
+  }
+
+.subtitle {
+    font-size: 1.625rem;
+    font-weight: normal;
+    color: white;
+}
+
+@media only screen and (max-width: 549px) and (min-width: 400px), only screen and (max-width: 399px) and (min-width: 350px), only screen and (max-width: 349px) {
+    .subtitle {
+       font-size: 1.1rem;
+    }  
+  }
+
+.imgcontainer {
+    width: 48%;
+    height: 100%;
+    display: flex;
+    -webkit-box-flex: 0;
+    flex: 0 1 auto;
+    box-sizing: border-box;
+}
+
+@media only screen and (max-width: 549px) and (min-width: 400px), only screen and (max-width: 399px) and (min-width: 350px), only screen and (max-width: 349px) {
+    .imgcontainer {
+       width: auto;
+    }  
+  }
+
+.downloadanimation {
+    margin: -8% 0 -4% -15%;
+    min-height: 100px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+@media only screen and (max-width: 549px) and (min-width: 400px), only screen and (max-width: 399px) and (min-width: 350px), only screen and (max-width: 349px) {
+    .downloadanimation {
+       margin: 0;
+    }  
+  }
+
+.animationImg {
+    max-width: 100%;
+    height: auto;
+    border: 0;
+}
+
+.cardanimation {
+    padding: 0.5em 0.75em;
+    position: absolute;
+    left: 50%;
+    bottom: 8%;
+    transform: translateX(-50%);
+    margin: 0 auto;
+    background: black;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    width: 330px;
+    min-width: 15em;
+    border: 2px solid rgba(255, 255, 255, 0.25);
+    box-shadow: 0 0 2em 0 #000000;
+    border-radius: 0.75em;
+    height: 96px;
+}
+
+@media only screen and (max-width: 549px) and (min-width: 400px), only screen and (max-width: 399px) and (min-width: 350px), only screen and (max-width: 349px) {
+    .cardanimation {
+       width: auto;
+    }  
+  }
+
+.cardanimation::after {
+    width: 3em;
+    height: 3em;
+    outline: 2px solid black;
+    outline-offset: -2px;
+    display: block;
+    background: url(https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif) center center no-repeat;
+    background-size: 100%;
+    content: '';
+    -webkit-box-flex: 0;
+    -moz-box-flex: 0;
+    -ms-flex-positive: 0;
+    flex-grow: 0;
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+}
+
+.cardanimationimg {
+    margin: 0 1em 0 0;
+    -webkit-box-flex: 0;
+    flex-grow: 0;
+    flex-shrink: 0;
+    /* height: 90px; */
+}
+
+.imgstyle {
+    height: 90px;
+}
+
+.cardanimationtext {
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+    flex-shrink: 1;
+    margin: 0.3em 0;
+}
+
+.text_0 {
+    font-size: 1em;
+    color: white;
+    font-weight: 600;
+}
+
+.text_1 {
+    color: #0071eb;
+    font-size: 0.9em;
+    font-weight: normal;
+}

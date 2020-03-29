@@ -1,0 +1,44 @@
+.topbar {
+    position: relative;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
+    padding-top: 20px;
+    padding-left: 15px;
+
+}
+
+.logo {
+    height: 36px;
+    width: 134px;
+}
+
+.signbutton {
+    position: relative;
+    padding-right: 1.2rem;
+    padding-left: 1.2rem;
+    font-weight: normal;
+    font-size: 1rem;
+    min-height: 35px;
+    border: 1px solid #e50914;
+    margin: .5em auto;
+    display: block;
+    width: auto;
+    line-height: initial;
+    background-color:rgb(229, 9, 20);
+    cursor: pointer;
+    border-radius: 5px;
+    float: right;
+    right: 45px;
+}
+
+.buttontext {
+    font-weight: normal;
+    font-size: .8rem;
+    color: #fff;
+    position: relative;
+    text-align: center;
+}

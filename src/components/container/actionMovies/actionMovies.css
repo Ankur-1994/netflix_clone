@@ -1,0 +1,112 @@
+.action_container {
+    display: flex;
+    padding: 0 55px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    position: relative;
+    top: -2rem;
+  }
+  
+  .item {
+    display: flex;
+    padding: 10px 10px;
+    height: 12rem;
+    padding-top: 3rem;
+    padding-bottom: 8rem;
+    padding-right: 1rem;
+    border: 1px solid red;
+    margin-bottom: 5rem;
+    margin-right: 0.5rem;
+  }
+  
+  .action_list-container {
+    max-width: 100%;
+    padding: 0px;
+    position: relative;
+    top: -2rem;
+  }
+  
+  .lcontrols, .rcontrols {
+    position: absolute;
+    top: 20px;
+    width: 4%;
+    height: 160px;
+    z-index: 40;
+    background: #0f0f0f;
+    opacity: 0.5;
+    display: flex;
+    cursor: pointer;
+    text-align: center;
+    justify-content: center;
+    color: #fff;
+  }
+  
+  .rcontrols {
+    right: 0;
+  }
+  
+  .lcontrols {
+    left: 0;
+  }
+  
+  .action_module-section {
+    max-width: 100%;
+    overflow: hidden;
+  }
+  
+  .clearfix::after {
+    display: block;
+    clear: both;
+    content: "";
+  }
+  
+  #content {
+    width: 365em;
+    list-style-type: none;
+    margin-bottom: 1rem;
+  }
+  
+  .action_listrow {
+    display: flex;
+    width: 100%;
+    transition: 0.3s transform;
+  }
+  
+  .action_tile {
+    position: relative;
+    display: inline-block;
+    line-height: 0;
+    cursor: pointer;
+    padding: 5px;
+    overflow: hidden;
+    width: 280px;
+    height: 160px;
+    transition: all 0.3s ease-in-out;
+    transform-origin: 0% 50%;
+  }
+  
+  .action_tile:hover {
+    transform: scale(1.1);
+    margin-right: 2rem;
+    margin-top: .2rem;
+  }
+  .action_tile:after {
+    position: absolute;
+    top: 0;
+    background: rgba(black, .2);
+    bottom: 0;
+    left: 0;
+    right: 0;
+    content: '';
+  }
+  
+  .action_tile .action_tile-img {
+    transition: transform 0.6s ease-out;
+    object-fit: cover;
+    width: 280px;
+    height: 160px;
+  }
+  
+  
+  

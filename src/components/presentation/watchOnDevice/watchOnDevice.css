@@ -1,0 +1,124 @@
+.watchondevice {
+    padding: 70px 45px;
+    position: relative;
+    border-bottom: 8px solid #222;
+    margin-bottom: 0;
+    background: transparent;
+    color: white;
+}
+
+@media only screen and (max-width: 549px) and (min-width: 400px), only screen and (max-width: 399px) and (min-width: 350px), only screen and (max-width: 349px) {
+    .watchondevice {
+        padding: 35px 0px;
+    }  
+  }
+
+.watch_container {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+}
+
+@media only screen and (max-width: 549px) and (min-width: 400px), only screen and (max-width: 399px) and (min-width: 350px), only screen and (max-width: 349px) {
+    .watch_container {
+        flex-direction: column;
+    }  
+  }
+
+.devicetext {
+    margin: -2% 0;
+    width: 52%;
+    height: 100%;
+    flex: 0 1 auto;
+    padding: 0 3rem 0 0;
+    z-index: 3;
+    font-size: 1.625rem;
+    font-weight: normal;
+}
+
+@media only screen and (max-width: 549px) and (min-width: 400px), only screen and (max-width: 399px) and (min-width: 350px), only screen and (max-width: 349px) {
+    .devicetext {
+        width: auto;
+        padding: 0px 3rem 0 45px;
+    }  
+  }
+
+.devicetitle {
+    font-size: 3.125rem;
+    line-height: 1.1;
+    margin-bottom: 0.5rem;
+    margin: 0 0 .4em;
+}
+
+@media only screen and (max-width: 549px) and (min-width: 400px), only screen and (max-width: 399px) and (min-width: 350px), only screen and (max-width: 349px) {
+    .devicetitle {
+        font-size: 2rem;
+    }  
+  }
+
+.devicesubtitle {
+    font-size: 1.625rem;
+    font-weight: normal;
+    margin: .75em 0 .25em;
+}
+
+@media only screen and (max-width: 549px) and (min-width: 400px), only screen and (max-width: 399px) and (min-width: 350px), only screen and (max-width: 349px) {
+    .devicesubtitle {
+        font-size: 1rem;
+    }  
+  }
+
+.deviceImgContainer {
+    width: 48%;
+    height: 100%;
+    display: flex;
+    -webkit-box-flex: 0;
+    flex: 0 1 auto;
+    box-sizing: border-box;
+}
+
+@media only screen and (max-width: 549px) and (min-width: 400px), only screen and (max-width: 399px) and (min-width: 350px), only screen and (max-width: 349px) {
+    .deviceImgContainer {
+        width: auto
+    }  
+  }
+
+.animationContainer {
+    margin: -5% -10% 0 0;
+    position: relative;
+    overflow: hidden;
+}
+
+@media only screen and (max-width: 549px) and (min-width: 400px), only screen and (max-width: 399px) and (min-width: 350px), only screen and (max-width: 349px) {
+    .animationContainer {
+        margin: 0
+    }  
+  }
+
+.deviceimg {
+    position: relative;
+    z-index: 2;
+}
+
+.animationvideo {
+    width: 100%;
+    height: 100%;
+    max-width: 63%;
+    max-height: 47%;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.video {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    vertical-align: baseline;
+    object-fit: contain;
+}
